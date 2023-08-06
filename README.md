@@ -19,3 +19,4 @@ API Used - [OpenWeatherMap](https://openweathermap.org/api)
 1. We can add an API request to get coordinates via geocoding api and store coordinates while storing city. This will reduce stray calls to the forecast api incase user enters any invalid city.
 2. A Cache is being used to store the API request data after first call, further improvements include resetting the cache data at the interval of x number of hours  as per the requirements.
 3. The forecast data can be structured and displayed in a better way.
+4. We can enhance the forecast api to allow weather forecast fetch via coordinates and postal code.
